@@ -14,7 +14,15 @@ import {
 function Home2() {
   return (
     <Container fluid className="about-section" id="about">
-      <Container>      
+      <Container>
+        <a
+          href="https://shafazhafiragbudgetapp.netlify.app"
+          target="_blank"
+          rel="noreferrer"
+          className="icon-colour  home-social-icons"
+        >
+         <AiOutlineDollarCircle />
+        </a>   
         <Row>
         <Col md={7} className="home-header">
         <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
