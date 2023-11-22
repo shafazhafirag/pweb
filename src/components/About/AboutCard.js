@@ -19,7 +19,7 @@ function AboutCard() {
               <ImPointRight /> Nonton Anime
             </li>
             <li className="about-activity">
-              <ImPointRight /> Jaln-Jalan
+              <ImPointRight /> Jalan-Jalan
             </li>
             <li className="about-activity">
               <ImPointRight /> Makan & Tidur
