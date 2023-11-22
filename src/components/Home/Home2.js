@@ -48,7 +48,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>Follow Me</h1>
             <p>
-              Boleh banget <span className="purple">difollow </span>akun saya
+              Boleh banget <span className="purple">difollow </span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
