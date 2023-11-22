@@ -8,6 +8,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
   AiFillLinkedin,
+  AiOutlineDollarCircle,
 } from "react-icons/ai";
 
 
