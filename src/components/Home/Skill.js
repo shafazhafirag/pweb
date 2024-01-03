@@ -2,9 +2,10 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiGo,
+  DiJavascript,
   DiVisualstudio,
   DiAndroid,
+  DiPython,
   DiMysql,
   DiGithub,
   DiJava,
@@ -23,7 +24,10 @@ function Skill() {
         <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGo />
+        <DiJavascript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
