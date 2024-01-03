@@ -93,16 +93,14 @@ function Home2() {
               </li>
             </ul>
           </Col>
-        </Row>    
-        
-                    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-                    <Col xs={2} md={2} className="tech-icons">
+                     <Col xs={2} md={2} className="tech-icons">
                 <a href="mailto:shafazhafira.g@gmail.com" target="_blank" rel="noopener noreferrer">
                   <Button>
                     Kirim Email
                   </Button>
                 </a>
-                    </Row>
+              </Col>
+        </Row>                                      
       </Container>      
     </Container>
   );
