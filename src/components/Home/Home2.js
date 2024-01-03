@@ -8,22 +8,13 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
   AiFillLinkedin,
-  AiOutlineDollarCircle,
 } from "react-icons/ai";
 
 
 function Home2() {
   return (
     <Container fluid className="about-section" id="about">
-      <Container>
-        <a
-          href="https://shafazhafiragbudgetapp.netlify.app"
-          target="_blank"
-          rel="noreferrer"
-          className="icon-colour  home-social-icons"
-        >
-         <AiOutlineDollarCircle />
-        </a>   
+      <Container>       
         <Row>
         <Col md={7} className="home-header">
         <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
@@ -102,7 +93,21 @@ function Home2() {
               </li>
             </ul>
           </Col>
-        </Row>       
+        </Row>    
+                    <Col xs={2} md={2} className="tech-icons">
+                <a href="mailto:shafazhafira.g@gmail.com" target="_blank" rel="noopener noreferrer">
+                  <Button>
+                    Kirim Email
+                  </Button>
+                </a>
+              </Col>
+                    <Col xs={2} md={2} className="tech-icons">
+                <a href="mailto:shafazhafira.g@gmail.com" target="_blank" rel="noopener noreferrer">
+                  <Button>
+                    Kirim Email
+                  </Button>
+                </a>
+              </Col>
       </Container>      
     </Container>
   );
